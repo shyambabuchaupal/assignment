@@ -77,7 +77,7 @@ const Footer = () => {
                         <div className='col-lg-3 col-xl-3 col-md-3 '>
                             <h5 className='text-uppercase fontsizeheading'>Office address</h5>
 
-                            <ul className='textul m-0 p-0'> <li><a>Sector 5 , Palam vihar, 122005, gurgaon ,Haryana </a> </li> </ul>
+                            <ul className='textul m-0 p-0 list-unstyled'> <li><a>Sector 5 ,subash nagar ,273353 , gandhi nagar, Haryana</a> </li> </ul>
 
                             <div className='mt-2'>
                                 <p className=' text-uppercase fw-bold fontsizeheading'>Payment Accept</p>
@@ -119,12 +119,12 @@ const Footer = () => {
                         <AccordionDetails>
                             <Typography>
 
-                                <ul className='textul  m-0 p-0'>
-                                    <li><a>New Arrival</a></li>
-                                    <li><a>Trending products</a></li>
-                                    <li><a>Top Brands</a></li>
+                                <ul className='textul  m-0 p-0 list-unstyled'>
+                                    <li className='p-1'><a>New Arrival</a></li>
+                                    <li className='p-1'><a>Trending products</a></li>
+                                    <li className='p-1'><a>Top Brands</a></li>
 
-                                    <li><a>All Products</a></li>
+                                    <li className='p-1'><a>All Products</a></li>
                                 </ul>
 
                             </Typography>
@@ -144,10 +144,10 @@ const Footer = () => {
 
 
                                 <ul className='textul m-0 p-0 list-unstyled'>
-                                    <li className='text-lowercase'><a><EmailIcon />: support@.in</a></li>
-                                    <li><a><PhoneIcon />:+918987248619</a></li>
-                                    <li><a>Privacy and policy</a></li>
-                                    <li><a>Refund and cancellations</a></li>
+                                    <li className='text-lowercase p-1'><a><EmailIcon />: support@.in</a></li>
+                                    <li className='p-1'><a><PhoneIcon />:+918987248619</a></li>
+                                    <li className='p-1'><a>Privacy and policy</a></li>
+                                    <li className='p-1'><a>Refund and cancellations</a></li>
 
                                 </ul>
 
@@ -173,7 +173,7 @@ const Footer = () => {
                             <Typography>
 
 
-                                <ul className='textul m-0 p-0'> <li><a>Sector 5 , Palam vihar, 122005, gurgaon ,Haryana </a> </li> </ul>
+                                <ul className='textul m-0 p-0 list-unstyled'> <li><a>Sector 5 , Palam vihar, 122005, gurgaon ,Haryana </a> </li> </ul>
 
 
 
@@ -222,4 +222,9 @@ const Footer = () => {
                 <p>Copyright 2021  All Rights Reserved</p>
             </div>
 
-        </di
+        </div>
+
+    );
+};
+
+export default Footer;

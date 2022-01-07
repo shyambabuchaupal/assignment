@@ -33,4 +33,8 @@ position: relative;
 
 }
 
-.textul li 
+.textul li a:hover { 
+ 
+    --d: 100%;
+
+  }

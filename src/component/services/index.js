@@ -73,7 +73,11 @@ const Services = () => {
                                             <Typography className="text-center">Passing this props would render</Typography>
                                             
                                         </div>
-                                        <div className="text-center mt-2 mb-2 " elevation={4}><button className="btn btn1 shadow-none">More</button></div>
+
+
+                                        <div className="mt-2 mb-2 col-12 p-2" >
+                                            <button className="btn bg-dark text-white rounded-pill col-12 shadow-none">More</button>
+                                        </div>
                                       
 
 

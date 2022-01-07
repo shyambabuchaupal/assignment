@@ -1,0 +1,45 @@
+.carousel-control-next-icon,
+.carousel-control-prev-icon
+{
+  height: 70px;
+  width: 50px;
+  background-color: hsla(0,0%,100%,.98);
+  background-size: 100%, 100%;
+  border-radius: 5px;
+ 
+}
+
+
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 39px;
+  color: black;
+
+}
+
+
+.carousel-control-prev-icon::after{
+    content: '<';
+    font-size: 39px;
+    color:  black;
+  }
+
+  .sr-only{
+    display: none;
+  }
+
+
+.bannerimg{
+  height: 450px;
+}
+
+
+
+@media only screen and (max-width:600px) {
+  
+  .bannerimg{
+    height: 200px;
+  }
+}
